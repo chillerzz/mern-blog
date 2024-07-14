@@ -23,5 +23,4 @@ export const signup = async (req, res, next) => {
     } catch (error) {
         next(error)
     }
-
 }
